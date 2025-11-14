@@ -7,11 +7,10 @@ function showSlide(n) {
   slides.forEach((slide) => slide.classList.remove("active"));
   slides[n].classList.add("active");
 
-  // hər dəfə aktiv slaytın yazılarını yenidən animasiya et
   const lines = slides[n].querySelectorAll(".line");
   lines.forEach((line, i) => {
     line.style.animation = "none";
-    line.offsetHeight; // restart animation
+    line.offsetHeight;
     line.style.animation = `fadeUp 0.8s ease forwards ${0.3 + i * 0.3}s`;
   });
 }
@@ -26,7 +25,6 @@ prev.addEventListener("click", () => {
   showSlide(index);
 });
 
-// avtomatik slayt (istəyə görə)
 setInterval(() => {
   index = (index + 1) % slides.length;
   showSlide(index);

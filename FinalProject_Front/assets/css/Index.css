@@ -1,4 +1,3 @@
-/* Reset */
 * {
     margin: 0;
     padding: 0;
@@ -10,7 +9,6 @@ body {
     font-family: Arial, sans-serif;
 }
 
-/* Header və navbar */
 header {
     position: fixed;
     top: 0;
@@ -29,7 +27,6 @@ header {
     padding: 0 40px;
 }
 
-/* Sol tərəf */
 .nav-left {
     margin-left: -40px;
     display: flex;
@@ -37,7 +34,6 @@ header {
     gap: 25px;
 }
 
-/* Qırmızı box (logo içində) */
 .red-box {
     width: 150px;
     height: 80px;
@@ -52,13 +48,11 @@ header {
     object-fit: contain;
 }
 
-/* Sidebar icon */
 .sidebar-icon i {
     font-size: 22px;
     cursor: pointer;
 }
 
-/* Nav linklər */
 .nav-links {
     display: flex;
     align-items: center;
@@ -76,7 +70,6 @@ header {
     color: red;
 }
 
-/* Sağ tərəf */
 .nav-right {
     display: flex;
     align-items: center;
@@ -108,29 +101,6 @@ section:nth-child(even) {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 body,
 main,
 section {
@@ -140,7 +110,6 @@ section {
 
 
 
-/* SLIDER ümumi */
 .slider {
     position: relative;
     width: 100%;
@@ -154,7 +123,6 @@ section {
 .slide {
     position: absolute;
     inset: 0;
-    /* top:0; right:0; bottom:0; left:0 */
     opacity: 0;
     transition: opacity 0.8s ease;
 }
@@ -164,16 +132,13 @@ section {
     z-index: 2;
 }
 
-/* Şəkillər keyfiyyətli və tam ekran */
 .slide img {
     position: absolute;
     inset: 0;
     width: 100%;
     height: 100%;
     object-fit: cover;
-    /* ekranı doldur, dartma */
     object-position: center;
-    /* şəkil mərkəzə hizalansın */
     image-rendering: -webkit-optimize-contrast;
     image-rendering: crisp-edges;
     backface-visibility: hidden;
@@ -181,18 +146,14 @@ section {
     display: block;
 }
 
-/* Yazı qutusu – solda, amma içi ortalı */
 .text-box {
     position: absolute;
     top: 50%;
     left: 10%;
-    /* şəkilin solunda qalsın */
     transform: translateY(-50%);
     color: #fff;
     text-align: center;
-    /* yazıların özü mərkəzdən hizalı */
     width: 500px;
-    /* blokun eni */
     max-width: 90%;
     z-index: 3;
 }
@@ -236,7 +197,6 @@ section {
     }
 }
 
-/* Yazı stilləri */
 .line.small {
     font-size: 16px;
     letter-spacing: 2px;
@@ -274,7 +234,6 @@ section {
     font-size: 14px;
 }
 
-/* Ox düymələri */
 .arrow {
     position: absolute;
     top: 50%;
@@ -304,31 +263,8 @@ section {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #categories {
     text-align: left;
-    /* əvvəllər center idi */
     padding: 100px 25px;
 }
 
@@ -357,7 +293,6 @@ section {
     flex-wrap: wrap;
 }
 
-/* Hər içki kartı */
 .category-card {
     position: relative;
     margin-left: 23px;
@@ -374,7 +309,6 @@ section {
     transform: translateY(-10px);
 }
 
-/* Arxa fon div */
 .category-bg {
     position: absolute;
     bottom: 0;
@@ -384,7 +318,6 @@ section {
     z-index: 1;
 }
 
-/* Şəkil div */
 .category-img {
     position: relative;
     z-index: 2;
@@ -398,7 +331,6 @@ section {
     object-fit: contain;
 } */
 
-/* Yazı div */
 .category-text {
     position: relative;
     z-index: 3;
@@ -420,7 +352,6 @@ section {
 
 
 
-/* Arxa fon rəngləri */
 .wine .category-bg {
     background-color: #a87575;
 }
@@ -444,23 +375,6 @@ section {
 .tequila .category-bg {
     background-color: #c77a15;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -489,7 +403,6 @@ section {
     text-decoration: none;
 }
 
-/* məhsul konteyneri */
 .deal-container {
     display: flex;
     justify-content: center;
@@ -497,7 +410,6 @@ section {
     flex-wrap: wrap;
 }
 
-/* məhsul kartı */
 .deal-card {
     width: 300px;
     border-radius: 6px;
@@ -507,7 +419,6 @@ section {
 }
 
 
-/* endirim badge */
 .discount {
     position: absolute;
     top: 10px;
@@ -521,7 +432,6 @@ section {
     z-index: 2;
 }
 
-/* şəkil hissəsi */
 .deal-img {
     position: relative;
     overflow: hidden;
@@ -534,7 +444,6 @@ section {
     background-color: #fff;
 }
 
-/* hover zamanı ikonlar */
 .icons {
     position: absolute;
     top: 10px;
@@ -560,7 +469,6 @@ section {
     opacity: 1;
 }
 
-/* timer */
 .timer {
     position: absolute;
     bottom: 0;
@@ -588,7 +496,6 @@ section {
     color: #333;
 }
 
-/* məhsul məlumatı */
 .deal-info {
     text-align: center;
     margin-top: 10px;
@@ -630,7 +537,6 @@ section {
     margin-right: 5px;
 }
 
-/* Add to cart */
 .cart {
     display: flex;
     justify-content: center;
@@ -662,19 +568,6 @@ section {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-/* OFFERS SECTION */
 #offers {
     padding: 63px 0px;
     margin-left: 38px;
@@ -690,7 +583,6 @@ section {
     flex-wrap: wrap;
 }
 
-/* Hər banner kartı */
 #offers .offer-card {
     position: relative;
     width: 472px;
@@ -712,14 +604,11 @@ section {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    /* şəkil konteyneri tam tutsun */
     object-position: right center;
-    /* şəkil sağ tərəfə yönəlsin */
     z-index: 1;
     transition: transform 0.4s ease;
 }
 
-/* Yazılar */
 #offers .offer-text {
     position: relative;
     z-index: 2;
@@ -764,7 +653,6 @@ section {
     color: #fff;
 }
 
-/* Dairəvi badge (Save / Price) */
 #offers .circle {
     position: absolute;
     border-radius: 50%;
@@ -789,7 +677,6 @@ section {
     margin-top: 4px;
 }
 
-/* Dairələrin yerləri */
 #offers .beer .circle {
     top: 25px;
     right: 35px;
@@ -802,25 +689,8 @@ section {
 
 #offers .offer-card:hover img {
     transform: translateX(10px);
-    /* şəkil azca sağa sürüşür */
     transition: transform 0.5s ease;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -877,7 +747,6 @@ section {
     gap: 15px;
 }
 
-/* Product Card */
 #shop .shop-card {
     width: 232px;
     position: relative;
@@ -889,7 +758,6 @@ section {
     transform: translateY(-5px);
 }
 
-/* Discount badge */
 #shop .discount {
     position: absolute;
     top: 10px;
@@ -903,14 +771,12 @@ section {
     z-index: 2;
 }
 
-/* Image */
 #shop .shop-img img {
     width: 100%;
     height: 280px;
     object-fit: contain;
 }
 
-/* Info */
 #shop .shop-info h3 {
     font-size: 16px;
     font-weight: 600;
@@ -952,7 +818,6 @@ section {
     margin-right: 5px;
 }
 
-/* Add to cart */
 #shop .cart {
     display: flex;
     justify-content: center;
@@ -988,7 +853,6 @@ section {
 
 
 
-/* Hover ikonları (shop bölməsi üçün) */
 #shop .shop-icons {
     position: absolute;
     top: 10px;
@@ -1018,31 +882,10 @@ section {
     color: #fff;
 }
 
-/* Hover zamanı ikonlar görünsün */
 #shop .shop-card:hover .shop-icons {
     opacity: 1;
     transform: translateY(0);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -1057,7 +900,6 @@ section {
     background-color: #f8f6f4;
 }
 
-/* 🔹 Arxadakı şəkil */
 .history-bg {
     position: absolute;
     top: 0;
@@ -1065,7 +907,6 @@ section {
     width: 100%;
     height: 100%;
     z-index: 1;
-    /* şəkil arxadadır */
 }
 
 .history-bg img {
@@ -1073,18 +914,14 @@ section {
     height: 100%;
     object-fit: cover;
     opacity: 0.9;
-    /* azca şəffaf */
 }
 
-/* 🔹 Yazılar və illər (şəklin *üstündə*) */
 .history-content {
     position: relative;
     z-index: 3;
-    /* şəkilin *üstündə* görünür */
     color: #000;
 }
 
-/* Yazı hissəsi */
 .text-side {
     max-width: 600px;
     margin-left: auto;
@@ -1126,7 +963,6 @@ section {
     background-color: #b40000;
 }
 
-/* Alt illər */
 .timeline {
     display: flex;
     justify-content: space-between;
@@ -1163,20 +999,6 @@ section {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #best-sellers {
     padding: 57px 52px;
     background-color: #fff;
@@ -1200,7 +1022,6 @@ section {
     font-weight: 600;
 }
 
-/* konteyner */
 .best-container {
     display: flex;
     justify-content: space-between;
@@ -1209,7 +1030,6 @@ section {
     align-items: flex-start;
 }
 
-/* Məhsul kartı */
 .best-card {
     margin-left: -51px;
     width: 250px;
@@ -1217,7 +1037,6 @@ section {
     transition: 0.3s;
 }
 
-/* şəkil və hover ikonları */
 .best-img {
     position: relative;
     overflow: hidden;
@@ -1234,7 +1053,6 @@ section {
     transform: scale(1.05);
 }
 
-/* Hover zamanı ikonlar */
 .product-icons {
     position: absolute;
     top: 10px;
@@ -1268,7 +1086,6 @@ section {
     color: #fff;
 }
 
-/* Ulduzlar */
 .stars {
     font-size: 18px;
     color: #ffcc00;
@@ -1278,7 +1095,6 @@ section {
     font-weight: bold;
 }
 
-/* Qiymət və stok */
 .price {
     color: #b40000;
     font-weight: bold;
@@ -1297,7 +1113,6 @@ section {
     margin-right: 5px;
 }
 
-/* Cart düyməsi */
 .cart {
     display: flex;
     justify-content: center;
@@ -1388,39 +1203,6 @@ section {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #wine-row {
     padding: 0 19px;
     background-color: #fff;
@@ -1434,7 +1216,6 @@ section {
     align-items: flex-start;
 }
 
-/* Kart ümumi */
 .wine-card {
     display: flex;
     flex-direction: column;
@@ -1444,7 +1225,6 @@ section {
     transition: 0.3s ease;
 }
 
-/* Şəkil konteyneri */
 .wine-img {
     width: 100%;
     height: 260px;
@@ -1455,7 +1235,6 @@ section {
     overflow: hidden;
 }
 
-/* Şəkil özü */
 .wine-img img {
     width: 100%;
     height: 100%;
@@ -1463,12 +1242,10 @@ section {
     transition: transform 0.4s ease;
 }
 
-/* Hover zamanı yalnız şəkil böyüsün */
 .wine-card:hover .wine-img img {
     transform: scale(1.05);
 }
 
-/* Ulduzlar */
 .stars {
     font-size: 18px;
     color: #ffcc00;
@@ -1476,7 +1253,6 @@ section {
     margin: 5px 0 10px;
 }
 
-/* Qiymət */
 .price {
     color: #000;
     font-weight: bold;
@@ -1484,7 +1260,6 @@ section {
     margin-bottom: 5px;
 }
 
-/* Stok vəziyyəti */
 .stock {
     color: green;
     font-size: 14px;
@@ -1500,7 +1275,6 @@ section {
     margin-right: 5px;
 }
 
-/* Düymələr */
 .cart {
     display: flex;
     justify-content: center;
@@ -1535,7 +1309,6 @@ section {
     background-color: #b40000;
 }
 
-/* Hover iconları */
 .wine-icons {
     position: absolute;
     top: 10px;
@@ -1545,7 +1318,6 @@ section {
     gap: 10px;
     opacity: 0;
     transform: translateY(-20px);
-    /* əvvəl yuxarıda başlasın */
     transition: opacity 0.4s ease, transform 0.4s ease;
 }
 
@@ -1575,32 +1347,12 @@ section {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #reviews {
     position: relative;
     margin-top: 65px;
     background: url('../img/Background2.jpg') center/cover no-repeat;
     color: #000;
     padding: 41px 42px;
-    /* daha balanslı sağ-sol boşluq */
     overflow: hidden;
 }
 
@@ -1621,7 +1373,6 @@ section {
     margin-top: 12px;
 }
 
-/* Wrapper və container hizalanması */
 .reviews-container {
     position: relative;
     overflow: hidden;
@@ -1634,10 +1385,8 @@ section {
     transition: transform 0.6s ease;
     cursor: grab;
     padding: 0 40px;
-    /* sağ və soldan boşluq */
 }
 
-/* Kartın görünüşü */
 .review {
     width: 370px;
     flex-shrink: 0;
@@ -1684,7 +1433,6 @@ section {
     color: green;
 }
 
-/* Navigasiya düymələri */
 .nav-btns {
     position: absolute;
     top: 28%;
@@ -1726,27 +1474,6 @@ section {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #collections {
     padding: 42px 20px;
     background-color: #fff;
@@ -1779,7 +1506,6 @@ section {
     gap: 30px;
 }
 
-/* Sol tərəfdə məhsullar */
 .collections-products {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -1825,11 +1551,9 @@ section {
     color: green;
 }
 
-/* Sağdakı bannerlər */
 .collections-banners {
     display: flex;
     flex-direction: row;
-    /* yan-yana */
     justify-content: space-between;
     align-items: stretch;
     gap: 25px;
@@ -1840,7 +1564,6 @@ section {
     position: relative;
     overflow: hidden;
     width: 50%;
-    /* yan-yana paylaşsınlar */
 }
 
 .banner img {
@@ -1893,18 +1616,6 @@ section {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 #brand-logos {
     background-color: #fff;
     padding: 30px 0;
@@ -1930,7 +1641,6 @@ section {
     cursor: pointer;
 }
 
-/* Hover effekti: biri qalır, digərləri solğunlaşır */
 .brand-container:hover img {
     opacity: 0.3;
 }
@@ -1944,46 +1654,25 @@ section {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 #footer {
     position: relative;
     background-color: #fff;
-    /* arxa fon tam ağ */
     color: #000;
     font-family: "Poppins", sans-serif;
     overflow: hidden;
 }
 
-/* Sağdakı dekorativ şəkil */
 .footer-side-image {
     position: absolute;
     right: 80px;
-    /* sağdan məsafə */
     bottom: 110px;
-    /* aşağıdan məsafə */
     width: 240px;
-    /* şəkil ölçüsü */
     height: auto;
     opacity: 0.6;
-    /* şəffaflıq */
     pointer-events: none;
-    /* kliklənməsin */
     z-index: 1;
 }
 
-/* Məzmunun üstə gəlməsi üçün */
 .footer-main,
 .footer-bottom {
     position: relative;
@@ -1992,7 +1681,6 @@ section {
 
 
 
-/* yuxarı info */
 .footer-top {
     display: flex;
     justify-content: space-around;
@@ -2011,7 +1699,6 @@ section {
     font-size: 18px;
 }
 
-/* əsas hissə */
 .footer-main {
     display: flex;
     justify-content: space-between;
@@ -2050,7 +1737,6 @@ section {
     color: #b40000;
 }
 
-/* offers sağda */
 .footer-offer {
     margin-right: 90px;
     position: relative;
@@ -2077,7 +1763,6 @@ section {
     opacity: 0.15;
 }
 
-/* alt xətt */
 .footer-bottom {
     display: flex;
     justify-content: space-between;
@@ -2091,21 +1776,18 @@ section {
     display: flex;
     align-items: center;
     gap: 21px;
-    /* Stay Connect və We Accept arası məsafə */
 }
 
 .footer-left .social {
     display: flex;
     align-items: center;
     gap: 15px;
-    /* “STAY CONNECT” və ikonlar arası məsafə */
 }
 
 .footer-left .title {
     font-weight: 700;
     font-size: 15px;
     margin-bottom: 0;
-    /* alt boşluq qalmasın */
 }
 
 .social-icons {

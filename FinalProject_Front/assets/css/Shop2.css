@@ -1,4 +1,3 @@
-/* Reset */
 * {
     margin: 0;
     padding: 0;
@@ -10,7 +9,6 @@ body {
     font-family: Arial, sans-serif;
 }
 
-/* Header və navbar */
 header {
     position: fixed;
     top: 0;
@@ -29,7 +27,6 @@ header {
     padding: 0 40px;
 }
 
-/* Sol tərəf */
 .nav-left {
     margin-left: -40px;
     display: flex;
@@ -37,7 +34,6 @@ header {
     gap: 25px;
 }
 
-/* Qırmızı box (logo içində) */
 .red-box {
     width: 150px;
     height: 80px;
@@ -52,13 +48,11 @@ header {
     object-fit: contain;
 }
 
-/* Sidebar icon */
 .sidebar-icon i {
     font-size: 22px;
     cursor: pointer;
 }
 
-/* Nav linklər */
 .nav-links {
     display: flex;
     align-items: center;
@@ -76,7 +70,6 @@ header {
     color: red;
 }
 
-/* Sağ tərəf */
 .nav-right {
     display: flex;
     align-items: center;
@@ -103,36 +96,6 @@ header {
 section:nth-child(even) {
     background-color: #fff;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -170,42 +133,21 @@ section:nth-child(even) {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* ================= SHOP PAGE ================= */
-
 #shop-page {
     padding: 80px 70px;
     background-color: #fff;
 }
 
-/* Əsas layout */
 .shop-layout {
     display: flex;
     gap: 60px;
 }
 
-/* ================= SIDEBAR ================= */
 
-/* ================= SIDEBAR ================= */
 .sidebar {
     width: 260px;
 }
 
-/* ================= SECTION TITLES ================= */
 .filter-section {
     margin-bottom: 35px;
 }
@@ -216,7 +158,6 @@ section:nth-child(even) {
     margin-bottom: 15px;
 }
 
-/* Bölmələr arası xətt */
 .filter-line {
     border: none;
     height: 1px;
@@ -224,7 +165,6 @@ section:nth-child(even) {
     margin-bottom: 15px;
 }
 
-/* ================= CATEGORY LIST ================= */
 .category-list {
     list-style: none;
     padding: 0;
@@ -247,21 +187,18 @@ section:nth-child(even) {
     font-weight: 700;
 }
 
-/* ================= PRICE FILTER ================= */
 .price-filter input[type="range"] {
     width: 100%;
     margin: 15px 0 8px 0;
     cursor: pointer;
 }
 
-/* Çubuğun öz rəngi */
 .price-filter input[type="range"]::-webkit-slider-runnable-track {
     height: 4px;
     background: #dcdcdc;
     border-radius: 3px;
 }
 
-/* Chrome Thumb */
 .price-filter input[type="range"]::-webkit-slider-thumb {
     -webkit-appearance: none;
     width: 16px;
@@ -272,7 +209,6 @@ section:nth-child(even) {
     cursor: pointer;
 }
 
-/* Firefox Thumb */
 .price-filter input[type="range"]::-moz-range-thumb {
     width: 16px;
     height: 16px;
@@ -281,13 +217,11 @@ section:nth-child(even) {
     cursor: pointer;
 }
 
-/* Price text */
 .price-range {
     color: #555;
     font-size: 15px;
 }
 
-/* Filter button sağ altda */
 .filter-footer {
     display: flex;
     justify-content: space-between;
@@ -305,7 +239,6 @@ section:nth-child(even) {
     text-decoration: underline;
 }
 
-/* ================= BRAND LIST ================= */
 .brand-list {
     list-style: none;
     padding: 0;
@@ -327,7 +260,6 @@ section:nth-child(even) {
     font-weight: 600;
 }
 
-/* ================= TAG BOX ================= */
 .tag-box {
     display: flex;
     flex-wrap: wrap;
@@ -352,13 +284,11 @@ section:nth-child(even) {
 }
 
 
-/* ================= PRODUCTS AREA ================= */
 
 .products-area {
     flex: 1;
 }
 
-/* Header */
 .products-header {
     display: flex;
     justify-content: space-between;
@@ -372,14 +302,12 @@ section:nth-child(even) {
     font-size: 20px;
 }
 
-/* Grid */
 .products-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 40px;
 }
 
-/* Product card */
 .product-card {
     text-align: center;
     transition: 0.3s;
@@ -389,7 +317,6 @@ section:nth-child(even) {
     transform: translateY(-5px);
 }
 
-/* Product images */
 .product-card img {
     width: 230px;
     height: 330px;
@@ -424,7 +351,6 @@ section:nth-child(even) {
     transition: background 0.3s ease, color 0.3s ease;
 }
 
-/* Hover zamanı görünmə aktiv olur */
 .product-card:hover .product-icons {
     opacity: 1;
     transform: translateY(0);
@@ -435,34 +361,30 @@ section:nth-child(even) {
     color: #fff;
 }
 
-/* Product name */
 .product-card h4 {
     margin: 15px 0 5px 0;
     font-size: 17px;
     font-weight: 700;
 }
 
-/* Stars */
 .stars {
     color: #ffcc00;
     margin-bottom: 8px;
 }
 
-/* Price */
 .price {
     font-size: 20px;
     font-weight: 700;
     color: #000;
 }
 
-/* Stock */
+
 .stock {
     color: green;
     margin-top: 5px;
     font-size: 14px;
 }
 
-/* Add to cart */
 .cart {
     display: flex;
     justify-content: center;
@@ -491,7 +413,6 @@ section:nth-child(even) {
 
 
 
-/* PAGINATION */
 .pagination {
     display: flex;
     gap: 10px;
@@ -534,9 +455,6 @@ section:nth-child(even) {
 
 
 
-
-
-/* ================= BEST SELLER ================= */
 
 .best-seller-box {
     margin-top: 40px;
@@ -596,7 +514,6 @@ section:nth-child(even) {
     margin-right: 4px;
 }
 
-/* BANNER WITH TEXT */
 .best-banner-box {
     height: 400px;
     width: 319px;
@@ -610,7 +527,6 @@ section:nth-child(even) {
     display: block;
 }
 
-/* Overlay text */
 .banner-content {
     position: absolute;
     top: 40px;
@@ -647,16 +563,10 @@ section:nth-child(even) {
 
 
 
-
-
-
-
-/* General filter section spacing */
 .filter-section {
     margin-top: 35px;
 }
 
-/* Titles */
 .filter-title {
     font-size: 22px;
     font-weight: 700;
@@ -669,7 +579,6 @@ section:nth-child(even) {
     margin-bottom: 20px;
 }
 
-/* Brand List */
 .brand-list {
     list-style: none;
     padding: 0;
@@ -693,7 +602,6 @@ section:nth-child(even) {
     color: #b40000;
 }
 
-/* Tags */
 .tag-box {
     display: flex;
     flex-wrap: wrap;
@@ -723,30 +631,22 @@ section:nth-child(even) {
 #footer {
     position: relative;
     background-color: #fff;
-    /* arxa fon tam ağ */
     color: #000;
     font-family: "Poppins", sans-serif;
     overflow: hidden;
 }
 
-/* Sağdakı dekorativ şəkil */
 .footer-side-image {
     position: absolute;
     right: 80px;
-    /* sağdan məsafə */
     bottom: 110px;
-    /* aşağıdan məsafə */
     width: 240px;
-    /* şəkil ölçüsü */
     height: auto;
     opacity: 0.6;
-    /* şəffaflıq */
     pointer-events: none;
-    /* kliklənməsin */
     z-index: 1;
 }
 
-/* Məzmunun üstə gəlməsi üçün */
 .footer-main,
 .footer-bottom {
     position: relative;
@@ -754,8 +654,6 @@ section:nth-child(even) {
 }
 
 
-
-/* yuxarı info */
 .footer-top {
     display: flex;
     justify-content: space-around;
@@ -774,7 +672,6 @@ section:nth-child(even) {
     font-size: 18px;
 }
 
-/* əsas hissə */
 .footer-main {
     display: flex;
     justify-content: space-between;
@@ -813,7 +710,6 @@ section:nth-child(even) {
     color: #b40000;
 }
 
-/* offers sağda */
 .footer-offer {
     margin-right: 90px;
     position: relative;
@@ -840,7 +736,6 @@ section:nth-child(even) {
     opacity: 0.15;
 }
 
-/* alt xətt */
 .footer-bottom {
     display: flex;
     justify-content: space-between;
@@ -854,21 +749,18 @@ section:nth-child(even) {
     display: flex;
     align-items: center;
     gap: 21px;
-    /* Stay Connect və We Accept arası məsafə */
 }
 
 .footer-left .social {
     display: flex;
     align-items: center;
     gap: 15px;
-    /* “STAY CONNECT” və ikonlar arası məsafə */
 }
 
 .footer-left .title {
     font-weight: 700;
     font-size: 15px;
     margin-bottom: 0;
-    /* alt boşluq qalmasın */
 }
 
 .social-icons {
