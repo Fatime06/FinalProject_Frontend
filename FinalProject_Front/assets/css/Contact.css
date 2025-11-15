@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+    z-index: 1000;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    padding: 0 40px;
+}
+
+.nav-left {
+    margin-left: -40px;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.red-box {
+    width: 150px;
+    height: 80px;
+    background-color: rgb(185, 9, 9);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.brand-logo {
+    height: 45px;
+    object-fit: contain;
+}
+
+.sidebar-icon i {
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: red;
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.search-icon i,
+.icons i {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.auth a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+}
+
+.icons-nav {
+    display: flex;
+    gap: 15px;
+}
+
+section:nth-child(even) {
+    background-color: #fff;
+}
+
+
+
+#page-header {
+    background: #f8f5ee url("../img/Background3.png") center bottom no-repeat;
+    background-size: 100% auto;
+    text-align: center;
+    padding: 120px 0;
+}
+
+.page-header-content h1 {
+    font-size: 60px;
+    font-weight: 800;
+    margin-bottom: 15px;
+}
+
+.page-header-content .breadcrumb {
+    font-size: 16px;
+    color: #666;
+}
+
+.page-header-content .breadcrumb a {
+    color: #666;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.page-header-content .breadcrumb span {
+    margin: 0 5px;
+}
+
+.page-header-content .breadcrumb a:hover {
+    color: #000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#contact-info-section {
+    padding: 70px 80px;
+    background: #fff;
+}
+
+.contact-info-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 60px;
+}
+
+.contact-info-top h2 {
+    font-size: 38px;
+    font-weight: 800;
+    line-height: 1.2;
+    letter-spacing: -1px;
+}
+
+.contact-text {
+    width: 50%;
+    font-size: 17px;
+    line-height: 1.7;
+    color: #555;
+}
+
+.contact-info-boxes {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+    margin-top: 20px;
+}
+
+.cibox i {
+    font-size: 28px;
+    color: #b40000;
+    margin-bottom: 10px;
+}
+
+.cibox h4 {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.info-line {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+}
