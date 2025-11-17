@@ -99,6 +99,110 @@ section:nth-child(even) {
 
 
 
+
+
+
+
+
+
+
+/* ---------- SIDEBAR DROPDOWN (yuxarıdan aşağı düşən) ---------- */
+.sidebar-dropdown {
+    position: absolute;
+    top: 80px;            /* navbarın altı */
+    left: 151px;          /* iconun altına uyğunlaşdırma */
+    width: 260px;
+    height: 500px;
+    background: #f8f5ee url("../img/DropdownImg.png") center bottom no-repeat;
+    border: 1px solid #ddd;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+    padding: 10px 0;
+    display: none;
+    z-index: 3000;
+}
+
+/* Aktiv olanda görünür */
+.sidebar-dropdown.active {
+    display: block;
+    animation: dropdownFade 0.25s ease-out;
+}
+
+/* İç siyahı */
+.sidebar-dropdown ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* Hər item */
+.sidebar-dropdown li a {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 16px 18px;
+    font-size: 16px;
+    text-decoration: none;
+    color: #22222284;
+    font-weight: 100px;
+    transition: 0.2s;
+}
+
+/* Item hover */
+.sidebar-dropdown li a:hover {
+    color: #4d4c4c;
+}
+
+/* Kiçik ikon */
+.sidebar-dropdown .icon {
+    width: 22px;
+    opacity: 0.8;
+}
+
+/* Animasiya */
+@keyframes dropdownFade {
+    from { opacity: 0; transform: translateY(-12px); }
+    to   { opacity: 1; transform: translateY(0); }
+}
+
+
+.sidebar-dropdown a {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    padding: 12px 20px;
+    font-size: 16px;
+    text-decoration: none;
+    transition: 0.2s;
+    font-weight: 600;
+}
+
+.sidebar-dropdown a i {
+    width: 20px;
+    font-size: 18px;
+}
+
+/* .sidebar-dropdown a:hover {
+    background: #f4f4f4;
+} */
+
+/* .sidebar-dropdown a:hover i {
+    color: #b40000;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #page-header {
     background: #f8f5ee url("../img/Background3.png") center bottom no-repeat;
     background-size: 100% auto;

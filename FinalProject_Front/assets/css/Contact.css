@@ -1,4 +1,4 @@
-* {
+ * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -96,6 +96,30 @@ header {
 section:nth-child(even) {
     background-color: #fff;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -277,17 +301,6 @@ textarea {
     height: auto;
     object-fit: cover;
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
 
