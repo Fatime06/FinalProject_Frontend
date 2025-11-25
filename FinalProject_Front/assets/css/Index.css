@@ -93,6 +93,10 @@ header {
     gap: 15px;
 }
 
+.icons-nav i{
+    color: #000;
+}
+
 section:nth-child(even) {
     background-color: #fff;
 }
@@ -190,29 +194,6 @@ section:nth-child(even) {
 /* .sidebar-dropdown a:hover i {
     color: #b40000;
 } */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -1972,16 +1953,6 @@ section {
     color: #b40000;
     font-weight: 700;
 }
-
-
-
-
-
-
-
-
-
-
 
 
 

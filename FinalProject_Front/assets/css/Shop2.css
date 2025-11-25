@@ -93,30 +93,20 @@ header {
     gap: 15px;
 }
 
+.icons-nav i{
+    color: #000;
+}
+
 section:nth-child(even) {
     background-color: #fff;
 }
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* ---------- SIDEBAR DROPDOWN (yuxarıdan aşağı düşən) ---------- */
 .sidebar-dropdown {
     position: absolute;
-    top: 80px;            /* navbarın altı */
-    left: 151px;          /* iconun altına uyğunlaşdırma */
+    top: 80px;      
+    left: 151px;        
     width: 260px;
     height: 500px;
     background: #f8f5ee url("../img/DropdownImg.png") center bottom no-repeat;

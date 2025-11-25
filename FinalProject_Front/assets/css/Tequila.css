@@ -93,6 +93,10 @@ header {
     gap: 15px;
 }
 
+.icons-nav i{
+    color: #000;
+}
+
 section:nth-child(even) {
     background-color: #fff;
 }
