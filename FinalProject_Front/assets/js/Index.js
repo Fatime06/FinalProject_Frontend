@@ -220,3 +220,40 @@ document.addEventListener("DOMContentLoaded", () => {
     setTimeout(checkLoop, 500);
   });
 });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+const cartIcon = document.getElementById("cartIcon");
+const cartSidebar = document.getElementById("cartSidebar");
+const closeCart = document.getElementById("closeCart");
+const cartOverlay = document.getElementById("cartOverlay");
+
+cartIcon.addEventListener("click", () => {
+    cartSidebar.classList.add("active");
+    cartOverlay.classList.add("active");
+});
+
+closeCart.addEventListener("click", () => {
+    cartSidebar.classList.remove("active");
+    cartOverlay.classList.remove("active");
+});
+
+cartOverlay.addEventListener("click", () => {
+    cartSidebar.classList.remove("active");
+    cartOverlay.classList.remove("active");
+});

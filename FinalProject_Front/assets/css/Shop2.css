@@ -198,6 +198,86 @@ section:nth-child(even) {
 
 
 
+.cart-sidebar {
+    position: fixed;
+    top: 0;
+    right: -400px;
+    width: 400px;
+    height: 100%;
+    background: #fff;
+    box-shadow: -3px 0 10px rgba(0, 0, 0, 0.2);
+    transition: 0.4s ease;
+    z-index: 9999;
+    padding: 20px;
+}
+
+.cart-sidebar.active {
+    right: 0;
+}
+
+.cart-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 15px;
+}
+
+.close-btn {
+    cursor: pointer;
+}
+
+.cart-body {
+    padding: 40px 10px;
+    text-align: center;
+}
+
+.cart-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: none;
+    z-index: 999;
+}
+
+.cart-overlay.active {
+    display: block;
+}
+
+#cartIcon {
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 #page-header {
     background: #f8f5ee url("../img/Background3.png") center bottom no-repeat;
@@ -871,59 +951,4 @@ section:nth-child(even) {
 
 .social-icons i {
     background: #e5e5e5;
-    color: #000;
-    border-radius: 50%;
-    padding: 8px;
-    cursor: pointer;
-    transition: 0.3s;
-}
-
-.social-icons i:hover {
-    background: #b40000;
-    color: #fff;
-}
-
-.payments img {
-    width: 160px;
-    opacity: 0.6;
-}
-
-.footer-right {
-    text-align: right;
-    margin-right: -46px;
-}
-
-.footer-right .links a {
-    color: #000;
-    text-decoration: none;
-    margin: 0 5px;
-    font-size: 14px;
-}
-
-.footer-right .links a:hover {
-    color: #b40000;
-}
-
-.footer-right p {
-    font-size: 14px;
-    color: #444;
-    margin-top: 10px;
-}
-
-.footer-copy {
-    border-top: 1px solid #ddd;
-    text-align: center;
-    padding: 20px 0;
-    background-color: #fff;
-}
-
-.footer-copy p {
-    font-size: 14px;
-    color: #444;
-    margin: 0;
-}
-
-.footer-copy span {
-    color: #b40000;
-    font-weight: 700;
-}
+    color: 
