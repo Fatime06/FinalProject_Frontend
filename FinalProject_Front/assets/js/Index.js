@@ -32,19 +32,6 @@ setInterval(() => {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 document.addEventListener("DOMContentLoaded", () => {
 
     const dropdown = document.getElementById("sidebar-dropdown");
@@ -54,7 +41,6 @@ document.addEventListener("DOMContentLoaded", () => {
         dropdown.classList.toggle("active");
     });
 
-    // Xaricə klik → bağlanır
     document.addEventListener("click", (e) => {
         if (!dropdown.contains(e.target) && !toggleBtn.contains(e.target)) {
             dropdown.classList.remove("active");
@@ -67,29 +53,12 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 const years = document.querySelectorAll(".year");
 
 years.forEach(yearEl => {
   const target = parseInt(yearEl.getAttribute("data-year"));
   let count = 0;
-  const speed = 20; // daha sürətli və ya yavaş etmək üçün dəyiş
+  const speed = 20; 
   const step = Math.ceil(target / 100);
 
   const counter = setInterval(() => {
@@ -101,35 +70,6 @@ years.forEach(yearEl => {
     yearEl.textContent = count;
   }, speed);
 });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -149,11 +89,9 @@ document.addEventListener("DOMContentLoaded", () => {
   let startX = 0;
   let isDown = false;
 
-  // 💡 Clone bütün reviewları sonsuz hərəkət üçün
-  wrapper.innerHTML += wrapper.innerHTML; // review-ları iki dəfə yazır
+  wrapper.innerHTML += wrapper.innerHTML; 
   const allReviews = document.querySelectorAll(".review");
 
-  // wrapper eni qədər genişləndir
   wrapper.style.width = `${allReviews.length * cardWidth}px`;
 
   function updateSlider(animate = true) {
@@ -162,7 +100,6 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   function checkLoop() {
-    // loop effekti üçün
     if (index >= allReviews.length / 2) {
       index = 0;
       updateSlider(false);
@@ -184,7 +121,6 @@ document.addEventListener("DOMContentLoaded", () => {
     setTimeout(checkLoop, 500);
   });
 
-  // sürükləmə (mouse)
   wrapper.addEventListener("mousedown", (e) => {
     isDown = true;
     startX = e.pageX;
@@ -207,7 +143,6 @@ document.addEventListener("DOMContentLoaded", () => {
     wrapper.style.cursor = "grab";
   });
 
-  // touch
   wrapper.addEventListener("touchstart", (e) => {
     startX = e.touches[0].clientX;
   });
@@ -220,22 +155,6 @@ document.addEventListener("DOMContentLoaded", () => {
     setTimeout(checkLoop, 500);
   });
 });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 const cartIcon = document.getElementById("cartIcon");

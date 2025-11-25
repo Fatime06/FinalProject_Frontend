@@ -103,13 +103,6 @@ section:nth-child(even) {
 
 
 
-
-
-
-
-
-
-
 .sidebar-dropdown {
     position: absolute;
     top: 80px;
@@ -194,9 +187,6 @@ section:nth-child(even) {
 } */
 
 
-
-
-
 #page-header {
     background: #f8f5ee url("../img/Background3.png") center bottom no-repeat;
     background-size: 100% auto;
@@ -228,18 +218,6 @@ section:nth-child(even) {
 .page-header-content .breadcrumb a:hover {
     color: #000;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 .cart-sidebar {
@@ -294,60 +272,6 @@ section:nth-child(even) {
 #cartIcon {
     cursor: pointer;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .product-section {
     width: 80%;
@@ -436,109 +360,6 @@ section:nth-child(even) {
     border: 1px dashed #555;
     padding: 8px 20px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

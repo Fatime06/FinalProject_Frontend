@@ -103,19 +103,10 @@ section:nth-child(even) {
 
 
 
-
-
-
-
-
-
-
 .sidebar-dropdown {
     position: absolute;
     top: 80px;
-    /* navbarın altı */
     left: 151px;
-    /* iconun altına uyğunlaşdırma */
     width: 260px;
     height: 500px;
     background: #f8f5ee url("../img/DropdownImg.png") center bottom no-repeat;
@@ -153,13 +144,11 @@ section:nth-child(even) {
     color: #4d4c4c;
 }
 
-/* Kiçik ikon */
 .sidebar-dropdown .icon {
     width: 22px;
     opacity: 0.8;
 }
 
-/* Animasiya */
 @keyframes dropdownFade {
     from {
         opacity: 0;
@@ -196,17 +185,6 @@ section:nth-child(even) {
 /* .sidebar-dropdown a:hover i {
     color: #b40000;
 } */
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -264,20 +242,6 @@ section:nth-child(even) {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #page-header {
     background: #f8f5ee url("../img/Background3.png") center bottom no-repeat;
     background-size: 100% auto;
@@ -309,8 +273,6 @@ section:nth-child(even) {
 .page-header-content .breadcrumb a:hover {
     color: #000;
 }
-
-
 
 
 #shop-page {
@@ -592,8 +554,6 @@ section:nth-child(even) {
 }
 
 
-
-
 .best-seller-box {
     margin-top: 40px;
 }
@@ -699,11 +659,6 @@ section:nth-child(even) {
     color: #b40000;
 }
 
-
-
-
-
-
 .filter-section {
     margin-top: 35px;
 }
@@ -767,15 +722,6 @@ section:nth-child(even) {
 }
 
 
-
-
-
-
-
-
-
-
-
 #footer {
     position: relative;
     background-color: #fff;
@@ -800,7 +746,6 @@ section:nth-child(even) {
     position: relative;
     z-index: 5;
 }
-
 
 
 .footer-top {
@@ -978,24 +923,6 @@ section:nth-child(even) {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* ============================================================
-   =========== 1200px (Laptop) ================================
-============================================================ */
 @media(max-width:1200px) {
 
     #shop-page {

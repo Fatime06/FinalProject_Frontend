@@ -104,16 +104,6 @@ section:nth-child(even) {
 
 
 
-
-
-
-
-
-
-
-
-
-
 .cart-sidebar {
     position: fixed;
     top: 0;
@@ -169,30 +159,10 @@ section:nth-child(even) {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* ---------- SIDEBAR DROPDOWN (yuxarıdan aşağı düşən) ---------- */
 .sidebar-dropdown {
     position: absolute;
     top: 80px;
-    /* navbarın altı */
     left: 151px;
-    /* iconun altına uyğunlaşdırma */
     width: 260px;
     height: 500px;
     background: #f8f5ee url("../img/DropdownImg.png") center bottom no-repeat;
@@ -203,20 +173,17 @@ section:nth-child(even) {
     z-index: 3000;
 }
 
-/* Aktiv olanda görünür */
 .sidebar-dropdown.active {
     display: block;
     animation: dropdownFade 0.25s ease-out;
 }
 
-/* İç siyahı */
 .sidebar-dropdown ul {
     margin: 0;
     padding: 0;
     list-style: none;
 }
 
-/* Hər item */
 .sidebar-dropdown li a {
     display: flex;
     align-items: center;
@@ -229,18 +196,15 @@ section:nth-child(even) {
     transition: 0.2s;
 }
 
-/* Item hover */
 .sidebar-dropdown li a:hover {
     color: #4d4c4c;
 }
 
-/* Kiçik ikon */
 .sidebar-dropdown .icon {
     width: 22px;
     opacity: 0.8;
 }
 
-/* Animasiya */
 @keyframes dropdownFade {
     from {
         opacity: 0;
@@ -280,17 +244,6 @@ section:nth-child(even) {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
 #page-header {
     background: #f8f5ee url("../img/Background3.png") center bottom no-repeat;
     background-size: 100% auto;
@@ -322,7 +275,6 @@ section:nth-child(even) {
 .page-header-content .breadcrumb a:hover {
     color: #000;
 }
-
 
 
 
@@ -605,9 +557,6 @@ section:nth-child(even) {
 
 
 
-
-
-
 .best-seller-box {
     margin-top: 40px;
 }
@@ -712,10 +661,6 @@ section:nth-child(even) {
     font-weight: 800;
     color: #b40000;
 }
-
-
-
-
 
 
 
@@ -981,15 +926,6 @@ section:nth-child(even) {
     color: #b40000;
     font-weight: 700;
 }
-
-
-
-
-
-
-
-
-
 
 
 
